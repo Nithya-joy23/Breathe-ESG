@@ -15,7 +15,7 @@ services:
       - key: CORS_ALLOWED_ORIGINS
         value: https://your-frontend-domain.onrender.com
       - key: PYTHON_VERSION
-        value: 3.13.5
+        value: 3.13.2
       - key: DATABASE_URL
         fromDatabase:
           name: breathe-esg-db2
